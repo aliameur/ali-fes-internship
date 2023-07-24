@@ -8505,7 +8505,7 @@ object {
     rgba(255, 255, 255, 1) 0%,
     rgba(242, 242, 242, 1) 100%
   );
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0);
+  filter: progid: DXxImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0);
 }
 
 .call-to-action-box {
