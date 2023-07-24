@@ -12,6 +12,59 @@
 @import "./css/styles/coloring.css";
 
 
+[data-aos="example-anim2"] {
+  background: red;
+  transition-property: background;
+  &.aos-animate {
+    background: green;
+  }
+}
+
 .chevron--hover:hover {
-    scale: 1.08;
+    transform: scale(1.08);
+}
+
+[data-aos="fade-up-10"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    transform: translateY(10px);
+
+    &.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+    &.aos-animate {
+    transform: translateY(0);
+    }
+}
+
+[data-aos="fade-up-40"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    transform: translateY(40px);
+
+    &.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+    &.aos-animate {
+    transform: translateY(0);
+    }
+}
+
+[data-aos="fade-left-short"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    transform: translateX(30px);
+
+    &.aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+    }
+
+    &.aos-animate {
+    transform: translateX(0);
+    }
 }

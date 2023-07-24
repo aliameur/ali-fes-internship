@@ -19,13 +19,13 @@ const TopSellers = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="text-center">
+                        <div className="text-center" data-aos='fade'>
                             <h2>Top Sellers</h2>
                             <div className="small-border bg-color-2"></div>
                         </div>
                     </div>
                     <div className="col-md-12">
-                        <ol className="author_list">
+                        <ol className="author_list" data-aos='fade' data-aos-delay='250'>
                             {data.map(author => (
                                 <li key={author.id}>
                                     <div className="author_list_pp">
